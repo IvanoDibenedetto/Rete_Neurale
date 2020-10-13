@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 
 CATEGORIES = ["Covid", "Polmonite"]  
-DATADIR = "C:/Users/Kiwi/Desktop/UNIBA/sistemi multimediali/Progetto covid19/Test/"
+DATADIR = "/Progetto covid19/Test/"
 
 def prepare(filepath):
     IMG_SIZE = 250
