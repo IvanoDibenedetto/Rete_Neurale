@@ -11,8 +11,8 @@ import os
 import numpy as np
 
 
-pathPneumonia =  "C:/Users/Kiwi/Desktop/UNIBA/sistemi multimediali/Progetto covid19/Covid19_dataset_global/Polmonite/"
-pathCovid =  "C:/Users/Kiwi/Desktop/UNIBA/sistemi multimediali/Progetto covid19/Covid19_dataset_global/Covid/"
+pathPneumonia =  "/Covid19_dataset_global/Polmonite/"
+pathCovid =  "/Covid19_dataset_global/Covid/"
 
 
 data_gen = ImageDataGenerator(
