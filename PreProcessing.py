@@ -14,7 +14,7 @@ import random
 import pickle
 
 
-DATADIR = "C:/Users/Kiwi/Desktop/UNIBA/sistemi multimediali/Progetto covid19/Covid19_dataset_global"
+DATADIR = "/Covid19_dataset_global"
 
 CATEGORIES = ["Covid","Polmonite"]
 IMG_SIZE = 450
