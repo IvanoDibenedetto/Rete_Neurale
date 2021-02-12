@@ -39,8 +39,8 @@ def classifica(filename):
     model = tf.keras.models.load_model("X-ray_CNN.model")
     prediction = model.predict_proba([prepare(filename)])
     score = prediction[0]
-    # ris = "il paziente è affetto da " + CATEGORIES[int(prediction[0][0]) ]
-    ris = "l'immagine è %.2f percento COVID-19 e %.2f percentp Polmonite." % (100 * (1 - score), 100 * score)
+    ris = "il paziente è affetto da " + CATEGORIES[int(prediction[0][0]) ]
+   
 
     print(
         "This image is %.2f percent COVID and %.2f percent PNEUMONIA."
