@@ -12,12 +12,12 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D
 
 import pickle
 
-# leggo il trainingset
-pickle_in = open("X2.pickle", "rb")
+# leggo il trainingset (immagini per il training)
+pickle_in = open("X.pickle", "rb")
 X = pickle.load(pickle_in)
 
-# leggo il testset
-pickle_in = open("y2.pickle", "rb")
+# leggo il testset (immagini per il test)
+pickle_in = open("y.pickle", "rb")
 y = pickle.load(pickle_in)
 
 # normalizza i colori nel range di [0,1]
