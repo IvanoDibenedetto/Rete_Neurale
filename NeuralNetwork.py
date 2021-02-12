@@ -55,7 +55,7 @@ model.compile(loss='binary_crossentropy',
 
 history = model.fit(X, y, batch_size=32, epochs=10, validation_split=0.2)
 
-model.save("model-3264128.model")
+model.save("modello_rete_neurale.model")
 
 #ACCURACY
 plt.plot(history.history['accuracy'])
