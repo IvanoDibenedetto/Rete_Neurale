@@ -1,7 +1,7 @@
 # Rete neurale per la classificazione di immagini di radiografie al torace, per capire se un paziente è affetto da Covid-19 o polmonite tipica
 
 
-link del progetto google drive: https://drive.google.com/file/d/1tRs07VPR-5jniPSNYAK95KtQ_ou-bA6w/view?usp=sharing
+link del progetto google drive: https://drive.google.com/file/d/1UFEtoRiwuM3_Qh5J0vjF08yrbTwtVW-v/view?usp=sharing
 
 all'interno c'è:
  - dataset iniziale
